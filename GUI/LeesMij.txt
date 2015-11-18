@@ -1,0 +1,15 @@
+- TestServer om socket communicatie te testen is gemaakt. 
+Dit is bedoelt als basis voor de communicatie tussen gebruikerspanelen en de server van de BarBot
+
+Het kan nu alleen een socket opstarten met een hardcoded poortnummer. Het heeft functies om berichten te ontvangen, 
+MAAR dit komt uit opdrachten van de les - deze functies worden verder uitgebreid bij het implementeren van de server.
+
+
+TODO: 
+*In Qt uitzoeken hoe worker threads werken (UI afhandelen / Socketdata ontvangen kan niet tegelijk)
+*TestClient maken om simpele berichten uit te wisselen tussen client (gebruikerspaneel) en server (raspberry pi van barbot)
+*Meerdere clients aan server hangen
+*Deze communicatie draadloos van PC-Pi laten lopen
+*Initiele set-up maken om te koppelen aan server, dan gebruikers UI maken
+*Front-end/GUI koppelen aan communicatieklasses/functies
+

@@ -1,11 +1,15 @@
-#include "barbotusermainwindow.h"
+#include "testservergui.h"
 #include <QApplication>
+
+int clntSock;
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    BarBotUserMainWindow w;
+    TestServerGUI w;
     w.show();
+
+    //
 
     return a.exec();
 }

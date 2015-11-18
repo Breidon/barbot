@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2015-11-17T09:32:40
+# Project created by QtCreator 2015-11-17T11:16:50
 #
 #-------------------------------------------------
 
@@ -8,13 +8,15 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = BarbotUserGUI
+TARGET = TestServerUI
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        barbotusermainwindow.cpp
+        testservergui.cpp \
+    socket.cpp
 
-HEADERS  += barbotusermainwindow.h
+HEADERS  += testservergui.h \
+    socket.h
 
-FORMS    += barbotusermainwindow.ui
+FORMS    += testservergui.ui
